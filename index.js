@@ -8,7 +8,7 @@ document.querySelector(".img1").setAttribute("src", image1);
 // document.querySelector(".img2").setAttribute("src", "./images/dice6.png");
 document.querySelector(".img2").setAttribute("src", image2);
 
-if (player1 = player2){
+if (player1 == player2){
     document.querySelector("h1").textContent = "Draw!"
 } else if (player1 > player2){
     document.querySelector("h1").textContent = "Player1 Wins!"
